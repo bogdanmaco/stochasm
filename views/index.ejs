@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="keywords" content="AI, machine learning, web design, development, artificial intelligence, STOCHASM Solution">
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h2>STOCHASM Solution</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-rocket"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">
+                        <i class="fas fa-bolt"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">
+                        <i class="fas fa-palette"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="neural-network"></div>
+            <div class="hero-constellation">
+                <div class="constellation-star star-1"></div>
+                <div class="constellation-star star-2"></div>
+                <div class="constellation-star star-3"></div>
+                <div class="constellation-star star-4"></div>
+                <div class="constellation-star star-5"></div>
+                <div class="constellation-star star-6"></div>
+                <div class="constellation-star star-7"></div>
+                <div class="constellation-star star-8"></div>
+                <div class="constellation-star star-9"></div>
+                <div class="constellation-star star-10"></div>
+                <div class="constellation-star star-11"></div>
+                <div class="constellation-star star-12"></div>
+                <div class="constellation-star star-13"></div>
+                <div class="constellation-star star-14"></div>
+                <div class="constellation-star star-15"></div>
+            </div>
+            <div class="particle-field"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Next-Generation Solutions</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">STOCHASM Solution</span>
+                    <span class="subtitle">Where AI Meets Web Innovation</span>
+                </h1>
+                <p class="hero-description">We create cutting-edge AI solutions and stunning web experiences that transform businesses and drive unprecedented growth in the digital age.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="150">0</span>+
+                        </div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="8">0</span>+
+                        </div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="95">0</span>%
+                        </div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('services')">
+                        <span>Explore Services</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary" onclick="showAIDemo()">
+                        <span>AI Demo</span>
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-brain">
+                    <div class="brain-core">
+                        <div class="brain-inner">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="brain-rings">
+                        <div class="ring ring-1"></div>
+                        <div class="ring ring-2"></div>
+                        <div class="ring ring-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About STOCHASM Solution</h2>
+                <p class="section-subtitle">Pioneering the Future of AI & Web Development</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Transforming Ideas into Digital Reality</h3>
+                    <p>At STOCHASM Solution, we combine cutting-edge artificial intelligence with innovative web development to create solutions that drive business growth and user engagement.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-robot"></i>
+                            <h4>AI-Powered Solutions</h4>
+                            <p>Advanced machine learning algorithms and neural networks</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-code"></i>
+                            <h4>Modern Development</h4>
+                            <p>Latest technologies and best practices in web development</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Data-Driven Insights</h4>
+                            <p>Analytics and optimization for maximum performance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-grid">
+                        <div class="tech-item" data-tech="AI/ML">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                        <div class="tech-item" data-tech="React">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item" data-tech="Node.js">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item" data-tech="Python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item" data-tech="TensorFlow">
+                            <i class="fas fa-network-wired"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="tech-item" data-tech="AWS">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive AI & Web Solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Custom AI solutions, predictive analytics, and intelligent automation systems.</p>
+                    <ul>
+                        <li>Neural Networks</li>
+                        <li>Predictive Analytics</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites and web applications with cutting-edge technologies.</p>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>Backend Systems</li>
+                        <li>E-commerce Solutions</li>
+                        <li>API Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Applications</h3>
+                    <p>Cross-platform mobile apps with AI integration and seamless user experiences.</p>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Flutter Development</li>
+                        <li>Native iOS/Android</li>
+                        <li>AI Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <p>Comprehensive data analysis and business intelligence solutions.</p>
+                    <ul>
+                        <li>Big Data Processing</li>
+                        <li>Business Intelligence</li>
+                        <li>Real-time Analytics</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">Showcasing Innovation & Excellence</p>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's Build Something Amazing Together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@stochasm-solution.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Global Digital Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="brand-text">STOCHASM Solution</span>
+                    <p>Pioneering AI & Web Innovation</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI & ML</a></li>
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Mobile Apps</a></li>
+                            <li><a href="#services">Data Analytics</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 STOCHASM Solution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Demo Modal -->
+    <div class="modal" id="aiDemoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>AI Demo Experience</h3>
+                <button class="modal-close" onclick="closeModal('aiDemoModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="ai-demo-content">
+                    <div class="ai-visualization">
+                        <div class="neural-network-demo">
+                            <div class="neural-node" data-layer="input"></div>
+                            <div class="neural-node" data-layer="hidden"></div>
+                            <div class="neural-node" data-layer="output"></div>
+                        </div>
+                    </div>
+                    <div class="ai-description">
+                        <h4>Experience Our AI Capabilities</h4>
+                        <p>Watch as our neural networks process data in real-time, demonstrating the power of artificial intelligence in action.</p>
+                        <div class="demo-features">
+                            <div class="feature">
+                                <i class="fas fa-brain"></i>
+                                <span>Neural Processing</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Real-time Analytics</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-cogs"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full Page Constellation Background -->
+    <div class="full-page-constellation">
+        <div class="bg-stars">
+            <div class="bg-star star-bg-1"></div>
+            <div class="bg-star star-bg-2"></div>
+            <div class="bg-star star-bg-3"></div>
+            <div class="bg-star star-bg-4"></div>
+            <div class="bg-star star-bg-5"></div>
+            <div class="bg-star star-bg-6"></div>
+            <div class="bg-star star-bg-7"></div>
+            <div class="bg-star star-bg-8"></div>
+            <div class="bg-star star-bg-9"></div>
+            <div class="bg-star star-bg-10"></div>
+            <div class="bg-star star-bg-11"></div>
+            <div class="bg-star star-bg-12"></div>
+            <div class="bg-star star-bg-13"></div>
+            <div class="bg-star star-bg-14"></div>
+            <div class="bg-star star-bg-15"></div>
+            <div class="bg-star star-bg-16"></div>
+            <div class="bg-star star-bg-17"></div>
+            <div class="bg-star star-bg-18"></div>
+            <div class="bg-star star-bg-19"></div>
+            <div class="bg-star star-bg-20"></div>
+            <div class="bg-star star-bg-21"></div>
+            <div class="bg-star star-bg-22"></div>
+            <div class="bg-star star-bg-23"></div>
+            <div class="bg-star star-bg-24"></div>
+            <div class="bg-star star-bg-25"></div>
+            <div class="bg-star star-bg-26"></div>
+            <div class="bg-star star-bg-27"></div>
+            <div class="bg-star star-bg-28"></div>
+            <div class="bg-star star-bg-29"></div>
+            <div class="bg-star star-bg-30"></div>
+        </div>
+        <div class="bg-constellation-lines">
+            <div class="bg-line bg-line-1"></div>
+            <div class="bg-line bg-line-2"></div>
+            <div class="bg-line bg-line-3"></div>
+            <div class="bg-line bg-line-4"></div>
+            <div class="bg-line bg-line-5"></div>
+            <div class="bg-line bg-line-6"></div>
+            <div class="bg-line bg-line-7"></div>
+            <div class="bg-line bg-line-8"></div>
+            <div class="bg-line bg-line-9"></div>
+            <div class="bg-line bg-line-10"></div>
+        </div>
+        <div class="bg-particles">
+            <div class="bg-particle bg-particle-1"></div>
+            <div class="bg-particle bg-particle-2"></div>
+            <div class="bg-particle bg-particle-3"></div>
+            <div class="bg-particle bg-particle-4"></div>
+            <div class="bg-particle bg-particle-5"></div>
+            <div class="bg-particle bg-particle-6"></div>
+            <div class="bg-particle bg-particle-7"></div>
+            <div class="bg-particle bg-particle-8"></div>
+            <div class="bg-particle bg-particle-9"></div>
+            <div class="bg-particle bg-particle-10"></div>
+            <div class="bg-particle bg-particle-11"></div>
+            <div class="bg-particle bg-particle-12"></div>
+            <div class="bg-particle bg-particle-13"></div>
+            <div class="bg-particle bg-particle-14"></div>
+            <div class="bg-particle bg-particle-15"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
